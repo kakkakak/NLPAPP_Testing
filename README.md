@@ -27,6 +27,7 @@
 
 - ltp-models 3.4.0
 - Stanford Corenlp 
+  - stanford-corenlp-4.5.4
   - Chinese models
 
 ## 步骤
