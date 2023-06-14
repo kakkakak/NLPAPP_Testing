@@ -2,7 +2,7 @@ from stanfordcorenlp import StanfordCoreNLP
 from nltk.tree import *
 import networkx as nx
 
-nlp = StanfordCoreNLP(r'Tools\stanford-corenlp-4.5.4')
+nlp = StanfordCoreNLP(r'')
 
 
 class SentenceData:
