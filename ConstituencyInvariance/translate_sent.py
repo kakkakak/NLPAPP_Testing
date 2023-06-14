@@ -28,8 +28,8 @@ phrase_list = []
 punc = string.punctuation
 
 
-key = '66c55f072695f67c'
-secret = 'kOG4BBsWrrvXS9NURFDRp8RszR9WjguR'
+key = ''
+secret = ''
 
 
 def encrypt(signStr):
