@@ -8,6 +8,8 @@ from LAC import LAC
 import jieba
 
 
+cws_path = ''
+
 pattern = re.compile(r"[A-Z]")
 stop_words = []
 city_names = []
@@ -130,7 +132,7 @@ def get_nltk_sym(word):
 def del_all_syn_word(error_word):
     words = jieba.cut_for_search(error_word)
     replacer = SynonymsReplacer(synonyms_file_path='./ConstituencyInvariance/tools/HIT-IRLab-Synonyms.txt',
-                                cws_model_path='./ConstituencyInvariance/tools/ltp-models/3.4.0/ltp_data_v3.4.0/cws.model')
+                                cws_model_path=cws_path)
     syn_words = set()
     for w in words:
         print(w)
